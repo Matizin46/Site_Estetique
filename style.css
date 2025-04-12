@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Courier New', monospace;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+.left-panel {
+    flex: 1;
+    background: linear-gradient(to bottom, #ff0000, #ffff00);
+    color: white;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.entrada {
+    margin-left: 230px;
+}
+
+.logo-img {
+    width: 400px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    margin-top: -110px;
+}
+
+.left-panel .logo {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.left-panel h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.left-panel p {
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.btn-outline {
+    padding: 12px 55px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 270px;
+}
+
+.forgot-password {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 290px;
+}
+
+.right-panel {
+    flex: 1;
+    background: white;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-panel .title {
+    background: linear-gradient(to right, red, orange, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #eee;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.input-group span {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.input-group input {
+    border: none;
+    background: none;
+    flex: 1;
+    outline: none;
+    font-size: 14px;
+}
+
+.btn-gradient {
+    padding: 12px;
+    background: linear-gradient(to right, red, yellow);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
